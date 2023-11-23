@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Дела на день</title>
+</head>
+<body>
+  <div class="table-container">
+    <table class="task-table" id="taskTable">
+      <thead>
+        <tr>
+          <th>Время</th>
+          <th>Задача</th>
+          <th>Место</th>
+          <th>Важность</th>
+          <th>Выполнено</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>08:00</td>
+          <td>Подготовка завтрака</td>
+          <td>Кухня</td>
+          <td>Обычное</td>
+          <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+          <td>09:00</td>
+          <td>Выгул собак</td>
+          <td>Двор</td>
+          <td>Средняя</td>
+          <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+          <td>10:00</td>
+          <td>Работа над проектом</td>
+          <td>Домашний офис</td>
+          <td>Высокая</td>
+          <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+          <td>12:00</td>
+          <td>Поиграть на CodeWars</td>
+          <td>—</td>
+          <td>Средняя</td>
+          <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+          <td>13:00</td>
+          <td>Обед</td>
+          <td>—</td>
+          <td>—</td>
+          <td><input type="checkbox"></td>
+        </tr>
+        <!-- Добавьте другие задачи по аналогии -->
+      </tbody>
+    </table>
+
+    <button class="add-button" onclick="newLine()">Добавить задачу</button>
+  </div>
+
+  <script src="script.js"></script> <!-- Добавлен скрипт -->
+</body>
+</html>
